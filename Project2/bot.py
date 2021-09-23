@@ -38,16 +38,16 @@ async def on_message(message):
         ),
     ]
 
-    hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+    extisentialCrisis = [
+        'We live in a simulation',
+        'Nothing is real',
+        'Existence is only perception',
+        'AHHHHHHHHHHHHHHHHHHHHHHHHH',
     ]
 
     if message.content == 'towel!':
         #response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+        response = random.choice(extisentialCrisis)
         await message.channel.send(response)
 
 client.run(TOKEN)
