@@ -45,7 +45,7 @@ async def on_message(message):
         'AHHHHHHHHHHHHHHHHHHHHHHHHH',
     ]
 
-    if message.content == 'towel!':
+    if message.content == 'is this real?':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(extisentialCrisis)
         await message.channel.send(response)
